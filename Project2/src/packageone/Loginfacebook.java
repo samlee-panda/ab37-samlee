@@ -10,7 +10,7 @@ public class Loginfacebook {
 		driver.get("https://www.facebook.com/");
 		driver.manage().window().maximize();
 		driver.findElement(By.id("email")).sendKeys("samleepanda123@gmail.com");
-		driver.findElement(By.name("pass")).sendKeys("samlee@123");
+		driver.findElement(By.name("pass")).sendKeys("");
 		driver.findElement(By.name("login")).click();
 
 	}
