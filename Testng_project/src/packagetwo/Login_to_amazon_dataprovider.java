@@ -28,13 +28,13 @@ public Object[][] data_for_login()
     		d1[1][0]="samlee123@gmail.com";//right user name
     	    d1[1][1]="AdyaPadhi@12";//Wrong password
     	    		d1[2][0]="sam123@gmail.com ";//wrong username
-    	    	    d1[2][1]="AdyaPadhi@123 ";//right password
+    	    	    d1[2][1]=" ";//right password
     	    	    		d1[3][0]="sam123@gmail.com";//wrong user name
     	    	    	    d1[3][1]="AdyaPadhi@12";//Wrong password
     	    	    	    		d1[4][0]="";//blank username
     	    	    	    	    d1[4][1]="AdyaPadhi@12 ";//
     	    	    	    	    		d1[5][0]="samlee123@gmail.com ";//right user name
-    	    	    	    	    	    d1[5][1]="AdyaPadhi@123";//right password
+    	    	    	    	    	    d1[5][1]="";//right password
 											return d1;
 }
 }
